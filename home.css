@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(main.jpg); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    min-width: 1024px;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background-color: aqua;
+    text-align: right;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: darkgoldenrod;
+}
+.menu-bar ul li{
+    width: 140px;
+    margin: 8px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: rgb(14, 26, 37);
+    font-size: 18px;
+}
+.active, .menu-bar ul li :hover{
+    /* border-top: 2px; */
+    border-radius: 5px;
+    /* background-color: black; */
+}
+.menu-bar .fa{
+    margin-right: 10px;
+    display: inline;
+}
+.booking{
+    position: absolute;
+    right: 1%;
+    margin: 5%;
+    width: 40%;
+    height: 500px;
+    border: 3px solid;
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+    /* font-size: 32px; */
+}
+/* table{
+    border: 1px solid;
+    width: 100%;
+}
+td{
+    width: 2%;
+    margin: auto;
+    height: 2%;
+} */
+
+.one{
+    width: 100%;
+    margin: 3%;
+    height: auto;
+    
+    
+}
+input{
+    /* margin: 1%; */
+    font-size: 17px;
+}
+select{
+    width: 100%;
+    /* margin: 3%; */
+    /* height: auto; */
+    font-size: 18px;
+    box-sizing: unset;
+}
+
+.input-filed{
+    width: 100%;
+}
+
+td,tr,table{
+    /* border:3px solid; */
+    border-collapse: collapse;
+    padding:5px;
+}
+table{
+
+    width: 100%;
+}

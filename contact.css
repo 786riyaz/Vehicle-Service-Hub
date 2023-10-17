@@ -1,0 +1,59 @@
+.contact-left{
+    /* border: 2px solid blue; */
+    width: 30%;
+    /* display: inline-block; */
+    margin-left: 10%;
+    float: left;
+}
+.contect-right{
+    border: 2px solid green;
+    width: 40%;
+    margin-right: 10%;
+    /* display: inline-block; */
+    float: right;
+}
+
+.contact-left p{
+    /* border: solid 2px; */
+    /* width: 50%; */
+}
+.contact-left p i{
+    font-size: 32px;
+    margin: 15px;
+    color: blue;
+    font-size: 25px;
+    /* border: solid 2px; */
+}
+.socail-icon{
+    margin: 15px;
+}
+.socail-icon a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 10px;
+    color: black;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.socail-icon a :hover{
+    color: aqua;
+    transform: translateY(-5px);
+}
+.contect-right form{
+    width: 50%;
+    /* border: solid 2px; */
+    /* margin: 5%; */
+}
+
+input,textarea{
+    width : 195%;
+    margin: 5px;
+    padding: 2px;
+    font-size: large;
+}
+
+button{
+    width : 40%;
+    margin: 5px;
+    padding: 2px;
+    font-size: large;

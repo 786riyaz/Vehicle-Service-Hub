@@ -1,0 +1,206 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    background: url(main.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.from-box{
+    width: 820px;
+    height: 500px;
+    border: 5px solid;
+    position: relative;
+    background: white;
+    /* background: transparent; */
+    margin: 2% auto;
+    padding: 5%;
+    /* backdrop-filter: blur(8px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    border: 2px solid rgba(255, 255, 255, 0.25); */
+    
+}
+.from-box h1{
+    text-align: center;
+    font-size: 48px;
+    margin: -6%;
+}
+.button-box {
+    width: 610px;
+    height: 60px;
+    margin: 82px auto;
+    position: relative;
+    box-shadow: 0 0 35px 10px #ff61241f;
+    border-radius: 30px;
+    /* border: 3px solid; */
+}
+.toggle-btn{
+    padding: 10px 35px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+    font-size: 32px;
+}
+#btn {
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    width: 206px;
+    height: 100%;
+    background: linear-gradient(to right, #5250e9,#4cadca);
+    border-radius: 30px;
+    transition: 05s;   
+}
+.social-icon{
+    margin: 560px auto;
+    text-align: center;
+   
+}
+.social-icon img{
+    width: 30px;
+    margin: 0px auto;
+    cursor: pointer;
+    box-shadow: 0 0 30px 0 #ff61241f;
+    top: 100%;
+    padding: 0% 1%;
+}
+.input-group{
+    width: 850px;
+    height: 40px;
+    margin: 50px auto;
+    right: 8%;
+    top: 180px;
+    /* border: 3px solid; */
+    position: absolute;
+}
+.input-filed{
+    padding: 12px 44px 12px 6px;
+    font-size: 16px;
+    border-radius: 18px;
+}
+.input-group1{
+    width: 850px;
+    height: 40px;
+    margin: 150px auto;
+    right: 8%;
+    top: 160px;
+    
+    /* border: 3px solid; */
+    position: absolute;
+}
+.input-group2{
+    width: 850px;
+    height: 40px;
+    margin: 210px auto;
+    right: 8%;
+    top: 180px;
+    /* border: 3px solid; */
+    position: absolute;
+}
+.input-group3{
+    width: 850px;
+    height: 50px;
+    margin: 300px auto;
+    right: 8%;
+    top: 180px;
+    /* border: 3px solid; */
+    position: absolute;
+}
+.submit-btn {
+    width: 120px;
+    height: 50px;
+    margin: 280px auto;
+    position: absolute;
+    right: 20%;
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.input-group4{
+    width: 850px;
+    height: 40px;
+    margin: 50px auto;
+    right: 8%;
+    top: 180px;
+    /* border: 3px solid; */
+    position: absolute;
+}
+.input-group5{
+    width: 850px;
+    height: 40px;
+    margin: 150px auto;
+    right: 8%;
+    top: 160px;
+    
+    /* border: 3px solid; */
+    position: absolute;
+}
+
+.input-group6{
+    width: 850px;
+    height: 40px;
+    margin: 210px auto;
+    right: 8%;
+    top: 180px;
+    /* border: 3px solid; */
+    position: absolute;
+}
+.input-group7{
+    width: 850px;
+    height: 50px;
+    margin: 300px auto;
+    right: 8%;
+    top: 180px;
+    /* border: 3px solid; */
+    position: absolute;
+}
+.submit-btn1 {
+    width: 120px;
+    height: 50px;
+    margin: 280px auto;
+    position: absolute;
+    right: 8%;
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.submit-btn2 {
+    width: 120px;
+    height: 50px;
+    margin: 280px auto;
+    position: absolute;
+    right: 20%;
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+#Mechanic{
+    left: -1600px;
+}
+#Customer{
+    left: 0;
+}
+#indicator {
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+}
+/* #Customer{
+    left: 50px;
+}
+#Mechanic{
+    left: 1130px;
+}
+#Shop{
+    right: 1115px;
+} */

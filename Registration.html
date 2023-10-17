@@ -1,0 +1,247 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanic Registration</title>
+    <link rel="stylesheet" href="Registration.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    
+</head>
+
+<body>
+    <div class="center">
+        <h1>Registration</h1>
+    </div><br>    
+    
+    <div class="button-box">
+        <button type="button" id="CustomerButton" class="toggle-btn" onclick="Customer()">Customer</button>
+        <button type="button" id="MechanicButton" class="toggle-btn" onclick="Mechanic()">Mechanic</button>
+        <button type="button" id="ShopButton"  class="toggle-btn" onclick="Shop()">Shop</button>
+    </div>
+    <br>
+    <br>
+
+    <form id="CustomerForm" class="input-group">
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" class="input-filed" placeholder="First Name" required>
+                </td>
+                <td colspan="2">
+                    <input type="text" class="input-filed" placeholder="Middel Name" required>
+                </td>
+                <td colspan="2">
+                    <input type="text" class="input-filed" placeholder="Last Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="text" class="input-filed" placeholder="Mobile Number" required></td>
+                <td colspan="3"><input type="text" class="input-filed" placeholder="Email Id (Optional)" required></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="text" class="input-filed" placeholder="Area" required>
+                </td>
+                <td colspan="3">
+                    <input type="text" class="input-filed" placeholder="Pin Code" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <input type="text" class="input-filed" placeholder="Otp" required><br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td colspan="2">
+                    <button type="button" id="ShopButton">Submit</button>
+                    <!-- <input type="submit" value="Customer Submit"> -->
+                </td>
+            </tr>
+        </table>
+
+
+    </form>
+
+    <form id="MechanicForm" class="input-group">
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" class="input-filed" placeholder="First Name" required>
+                </td>
+                <td colspan="2">
+                    <input type="text" class="input-filed" placeholder="Middel Name" required>
+                </td>
+                <td colspan="2">
+                    <input type="text" class="input-filed" placeholder="Last Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="text" class="input-filed"  placeholder="Mobile Number" required></td>
+                <td colspan="3"><input type="text" class="input-filed" placeholder="Email Id (Optional)" required></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="text" class="input-filed" placeholder="Area" required>
+                </td>
+                <td colspan="3">
+                    <input type="text" class="input-filed" placeholder="Pin Code" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <textarea name="" id="" cols="30" rows="3" placeholder="Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <select>
+                        <option value="Car">Select</option>
+                        <option value="Car">Puncture (Four Wheeler)</option>
+                        <option value="Car">Puncture (Two Wheeler)</option>
+                        <option value="Car">Machenic (Four Wheeler)</option>
+                        <option value="Car">Machenic (Two Wheeler)</option>
+                        <option value="Car">Machenic Ev(Four Wheeler)</option>
+                        <option value="Car">Machenic Ev(Two Wheeler)</option>
+                        <option value="Car">Electrisation </option>
+                        <option value="Car">Electrisation Ev </option>
+                        <option value="Car">Other</option>
+                    </select>
+                </td>
+                <td colspan="3">
+                    <input type="text" class="input-filed" placeholder="Otp" required><br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td colspan="2">
+                    <button type="button" id="ShopButton">Submit</button>
+                    <!-- <input type="submit" value="Machenic Submit"> -->
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+    <form id="ShopForm" class="input-group">
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" class="input-filed" placeholder="First Name" required>
+                </td>
+                <td colspan="2">
+                    <input type="text" class="input-filed" placeholder="Middel Name" required>
+                </td>
+                <td colspan="2">
+                    <input type="text" class="input-filed" placeholder="Last Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="text" class="input-filed" placeholder="Mobile Number" required></td>
+                <td colspan="3"><input type="text" class="input-filed" placeholder="Email Id (Optional)" required></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="text" class="input-filed" placeholder="Area" required>
+                </td>
+                <td colspan="3">
+                    <input type="text" class="input-filed" placeholder="Pin Code" required>
+                </td>
+            </tr>
+                 <tr>
+            <td colspan="6">
+                <textarea name="" id="" cols="30" rows="3" placeholder="Shop Address"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                    <input type="text" class="input-filed" placeholder="Otp" required><br>
+                </td>
+            </tr>
+             </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td colspan="2">
+                    <button type="button" id="ShopButton">Submit</button>
+                    <!-- <input type="submit" value="Shop Submit"> -->
+                </td>
+            </tr>
+        </table>
+
+
+    </form>
+
+    <script>
+        // debugger;
+        var CustomerForm = document.getElementById("CustomerForm");
+        var MechanicForm = document.getElementById("MechanicForm");
+        var ShopForm = document.getElementById("ShopForm");
+        MechanicForm.style.display = "none";
+        ShopForm.style.display = "none";
+        CustomerForm.style.display = "clear";
+        document.getElementById("CustomerButton").style.backgroundColor = "Teal";
+        
+        function Customer() {
+            // debugger;
+            console.log("Customer button clicked")
+            MechanicForm.style.display = "none";
+            ShopForm.style.display = "none";
+            CustomerForm.style.display = "block";
+            document.getElementById("CustomerButton").style.backgroundColor = "Teal";
+            document.getElementById("MechanicButton").style.backgroundColor = "transparent";
+            document.getElementById("ShopButton").style.backgroundColor = "transparent";
+
+
+        }
+        function Mechanic() {
+            console.log("Mechanic button clicked")
+            MechanicForm.style.display = "block";
+            CustomerForm.style.display = "none";
+            ShopForm.style.display = "none";
+            document.getElementById("CustomerButton").style.backgroundColor = "transparent";
+            document.getElementById("MechanicButton").style.backgroundColor = "Teal";
+            document.getElementById("ShopButton").style.backgroundColor = "transparent";
+        }
+        function Shop() {
+            console.log("Shop button clicked")
+            MechanicForm.style.display = "none";
+            CustomerForm.style.display = "none";
+            ShopForm.style.display = "block";
+            document.getElementById("CustomerButton").style.backgroundColor = "transparent";
+            document.getElementById("MechanicButton").style.backgroundColor = "transparent";
+            document.getElementById("ShopButton").style.backgroundColor = "Teal";
+        }
+
+    </script>
+</body>
+
+</html>
