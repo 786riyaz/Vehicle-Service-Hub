@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 body{
     /* background-image: url(main.jpg); */
     /* background-size: cover; */
     /* background-position: center; */
-    min-width: 1024px;
+    
     font-family: sans-serif;
 }
 .menu-bar{
@@ -21,12 +22,12 @@ body{
 }
 .menu-bar ul li{
     width: 140px;
-    margin: 8px;
+    margin: 5px;
     padding: 15px;
 }
 .menu-bar ul li a{
     text-decoration: none;
-    color: rgb(14, 26, 37);
+    color: rgb(1, 6, 10);
     font-size: 18px;
 }
 .active, .menu-bar ul li :hover{
@@ -41,14 +42,15 @@ body{
 .booking{
     position: absolute;
     right: 1%;
-    margin: 5%;
-    width: 40%;
-    height: 500px;
+    margin: 6%;
+    width: 35%;
+    height: 400px;
     border: 3px solid;
+    border-radius: 25px;
 }
 h1 {
     text-align: center;
-    padding: 10px;
+    text-decoration: underline;
     /* font-size: 32px; */
 }
 /* table{
@@ -63,33 +65,31 @@ td{
 
 .one{
     width: 100%;
-    margin: 3%;
-    height: auto;
-    
+    margin: 4%;
+    height: auto;  
     
 }
 input{
-    /* margin: 1%; */
+    margin:2%;
     font-size: 17px;
+
 }
-select{
-    width: 100%;
-    /* margin: 3%; */
+select{ 
+    width: 39.5%;
+    margin: 2%;
     /* height: auto; */
-    font-size: 18px;
+    font-size: 17px;
     box-sizing: unset;
 }
-
-.input-filed{
+label{
     width: 100%;
-}
+    margin: 2%;
 
-td,tr,table{
-    /* border:3px solid; */
-    border-collapse: collapse;
-    padding:5px;
 }
-table{
-
-    width: 100%;
+button{
+    margin: 2%;
+    font-size: 17px;
+}
+.btn{
+    text-align: center; 
 }
