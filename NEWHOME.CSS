@@ -1,10 +1,9 @@
-*{
+body{
     background-image: url(back2.jpg);
     background-attachment: fixed;
     background-size: 100%;  
 
 }
-
 
 .back-video{
     position: absolute;
@@ -21,7 +20,6 @@ nav{
     display: inline;
     text-align: right;
 }
-
 
 li{
     font-size: 20px;
@@ -42,6 +40,7 @@ nav ul li a{
     text-decoration: none;
     position: relative;
 }
+
 nav ul li a::after{
     content: '';
     width: 0%;
@@ -53,9 +52,11 @@ nav ul li a::after{
     background: #fff;
     transition: width 0.3s;
 }
+
 nav ul li a:hover::after{
     width: 50%;
 }
+
 .name-box{
     color: rgb(226, 238, 238);
     position: absolute;
@@ -63,6 +64,7 @@ nav ul li a:hover::after{
     bottom: 35%;
     margin: auto;
 }
+
 .name-box p{
     font-size: 50px;
     font-weight: 300;
@@ -96,8 +98,93 @@ nav ul li a:hover::after{
     font-size: 24px;
     width: 100%;
     font-weight: 200;
+}
+
+.booking-container{
+    border: solid 2px;
+    position: relative;
+    width: 40%;
+    left: 51%;
+    margin-top: 55px;
+    border-radius: 35px;
+    padding: 20px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    color:azure;
     
 }
 
+.booking-container h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    color:turquoise;
+}
+::placeholder{
+    color:#fff;
+    font-weight: 300;
+}
+.booking-container input{
+    margin:3%;
+    font-size: 24px;
+    align-items: center;
+    /* border-radius: 6px; */
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid;
+    
+}
 
+#file{
+    border: none;
+}
+.booking-container select{ 
+    width: 41%;
+    margin: 3%;
+    margin-left: 3%;
+    /* height: auto; */
+    font-size: 24px;
+    box-sizing: unset;
+    color: #fff;
+    /* border-radius: 6px; */
+    border: none;
+    border-bottom: 3px solid black;
+    background: transparent;
+    
+}
+.booking-container label{
+    width: 100%;
+    margin: 2%;
+    font-size: 22px;
+    border: none;
+    background: transparent;
+}
+.booking-container button{
+    margin: 2%;
+    font-size: 29px;
+    background: transparent;
+    color: #fff;
+    }
+.booking-container .btn{
+    text-align: center; 
+    /* border: solid 2px; */
 
+}
+button{
+    border: solid 2px black;
+    border-radius: 5px;
+    
+}
+#submit {
+    border: solid 2px;
+    width: 40%;
+    border-radius: 25px;
+}
+.booking-container textarea{
+    margin: 3%;
+    width: 88%;
+    background: transparent;
+    border: 2px solid;
+    font-size: 20px;
+     
+}
